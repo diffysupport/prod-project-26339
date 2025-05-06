@@ -15,37 +15,21 @@ basic:
         - insights/consumer-products-insights-from-2024
         - insights/retail-insights-from-2024
         - industries/life-sciences
-        - industries/life-sciences/pharmaceutical-consulting
-        - industries/life-sciences/biotech-consulting
         - industries/life-sciences/medical-device-consulting
         - cell-gene-therapy
         - industries/life-sciences/contract-manufacturing-consulting
         - industries/life-sciences/generics-consulting
-        - industries/life-sciences/wholesale-distribution-consulting-life-sciences
         - industries/consumer-products
         - industries/consumer-products/fast-moving-consumer-goods-consulting
-        - industries/consumer-products/consumer-durables-consulting
-        - industries/consumer-products/food-and-beverage-consulting
-        - industries/consumer-products/wine-and-spirits-consulting
-        - industries/consumer-products/health-and-beauty
-        - industries/consumer-products/consumer-healthcare-consulting
-        - industries/consumer-products/pet-food-consulting
         - industries/consumer-products/wholesale-distribution-consulting-consumer-products
         - industries/retail-consulting
         - industries/retail-consulting/specialty-retail-consulting
-        - industries/retail-consulting/grocery-consulting
-        - industries/retail-consulting/restaurant-and-hospitality-consulting
-        - industries/retail-consulting/retail-ecommerce-consulting
-        - industries/retail-consulting/apparel-footwear-consulting
-        - industries/retail-consulting/luxury-retail-consulting
         - industries/retail-consulting/mass-merchant-drug-club
         - services
         - services/sap-consulting-technology/sap-s4hana-upgrade
         - services/private-equity-consulting-services
         - services/people-and-change-consulting/business-process-consulting
-        - services/clinical-research-consulting/health-equity-consulting
         - services/quality-compliance/veeva-consulting
-        - services/supply-chain/tracelink-consulting
         - services/supply-chain/logility-consulting
         - services/people-and-change-consulting/retail-project-management-consulting
         - services/data-analytics
@@ -58,16 +42,13 @@ basic:
         - services/it-consulting/vendor-selection-advisory
         - services/digital-consulting-services
         - services/strategy-innovation
-        - services/strategy-innovation/strategic-innovation-consulting
         - services/strategy-innovation/mergers-consulting
         - services/people-and-change-consulting
         - services/people-and-change-consulting/project-management-consulting
-        - services/people-and-change-consulting/change-management-consulting
         - services/people-and-change-consulting/diversity-equity-inclusion-dei-consulting
         - services/quality-compliance
         - services/quality-compliance/lims-consulting
         - services/quality-compliance/quality-operations-processes-systems
-        - services/quality-compliance/consumer-centric-compliance
         - services/sales-marketing
         - services/sales-marketing/category-management-consulting
         - services/sales-marketing/trade-promotion
@@ -78,14 +59,11 @@ basic:
         - services/sap-consulting-technology/sap-ibp
         - services/supply-chain
         - services/supply-chain/supply-chain-planning-execution-consumer-products
-        - services/supply-chain/direct-store-delivery-optimization-consulting
         - services/supply-chain/strategic-sourcing-consulting
         - insights
         - insights/erp-vendor-selection-case-study
-        - insights/3pl-and-serialization
         - insights/building-a-direct-to-consumer-strategy-a-case-study
         - insights/digital-analytics-audit-and-tagging-case-study
-        - insights/tracelink-mint
         - insights/developing-a-forecasting-modeling-tool
         - insights/decision-making-during-times-of-uncertainty
         - insights/2025-consumer-products-supply-chain-trends
@@ -95,11 +73,8 @@ basic:
         - insights/clinical-lims-enhancement
         - insights/designing-a-retail-organization
         - clarkston-webinars
-        - insights/retail-store-of-the-future
-        - insights/2025-life-sciences-industry-trends
         - insights/category-management-playbook
         - insights/2025-medical-device-industry-trends
-        - 'insights/?fwp_insight_type=multimedia'
         - about-us
         - amplifiers
         - clarkston-scholars-program
@@ -126,7 +101,19 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
