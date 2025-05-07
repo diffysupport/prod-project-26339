@@ -1,5 +1,5 @@
 basic:
-    name: 'https://clarkstonconsulting.com/'
+    name: 'Clarkston Consulting'
     environments:
         production: 'https://clarkstonconsulting.com/'
         staging: 'https://may-updates-clarkstonconsulting.pantheonsite.io/'
