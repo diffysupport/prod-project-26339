@@ -2,8 +2,8 @@ basic:
     name: 'Clarkston Consulting'
     environments:
         production: 'https://clarkstonconsulting.com/'
-        staging: 'https://may-updates-clarkstonconsulting.pantheonsite.io/'
-        development: ''
+        staging: 'https://test-clarkstonconsulting.pantheonsite.io/'
+        development: 'https://dev-clarkstonconsulting.pantheonsite.io/'
     breakpoints:
         - 640
         - 1024
