@@ -4,20 +4,16 @@ basic:
         production: 'https://clarkstonconsulting.com/'
         staging: 'https://test-clarkstonconsulting.pantheonsite.io/'
         development: 'https://dev-clarkstonconsulting.pantheonsite.io/'
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: { user: '', password: '' }
     breakpoints:
         - 640
         - 1024
         - 1200
     pages:
         - /
-        - /industries
-        - /industries/life-sciences
-        - /industries/life-sciences/medical-device-consulting
-        - /cell-gene-therapy
-        - /industries/life-sciences/generics-consulting
-        - /insights
-        - /clients-case-studies
-        - /about-us
     monitoring:
         days: {  }
         type: ''
@@ -28,7 +24,6 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
     delay: 15
     scroll: true
     headers:
@@ -38,6 +33,10 @@ advanced:
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
     login:
         type: none
         click_element: false
